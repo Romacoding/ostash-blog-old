@@ -1,7 +1,7 @@
 {:site-title           "Creating uncreated"
  :author               "Roman Ostash"
  :description          "Code is a poetry"
- :site-url             "http://ostash.dev/"
+ :site-url             "https://ostash.dev/"
  :post-root            "posts"
  :page-root            "pages"
  :post-root-uri        "posts-output"
