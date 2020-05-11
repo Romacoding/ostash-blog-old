@@ -1,12 +1,10 @@
-{:title "The beginning"
+{:title "Notes to myself"
 :layout :post
-:tags ["JavaScript", "functional programming"]}
+:tags ["JavaScript", "Functional programming", "Pure functions"]}
 
 ### Functional purity in JavaScript
 
->     Object oriented programming makes code understandable by encapsulating moving parts. Functional programming makes code understandable by minimizing moving parts.
->
-> – Michael Feathers
+>     Object oriented programming makes code understandable by encapsulating moving parts. Functional programming makes code understandable by minimizing moving parts. – Michael Feathers
 
 What is a function? For the function to be a function it has to return something, otherwise is a procedure. Function is the semantic relationship between input and computed output.
 In a JavaScript we cannot completely sure if a function is pure unless we look on how the function was called.

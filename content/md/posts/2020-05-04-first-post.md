@@ -1,6 +1,6 @@
 {:title "The beginning"
 :layout :post
-:tags ["clojure", "functional programming"]}
+:tags ["Clojure", "Functional programming"]}
 
 ### The jorney begins
 
