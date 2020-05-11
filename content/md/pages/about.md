@@ -3,7 +3,5 @@
 :page-index 1
 :navbar? true}
 
-```function Roman () { occupation: 'web developer', interest: 'javascript', hobby: 'photography' }```
-
 I'm Roman Ostash, a self-taught Software Developer. I love to code and to build applications.
 Thinking outside of the box, problem solving skills and perseverance in achieving my goals are helping me in my personal and professional development.
