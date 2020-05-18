@@ -7,7 +7,7 @@
     <!-- Website Template designed by www.downloadwebsitetemplates.co.uk -->
     <!-- Modified to fit Cryogen.-->
     <meta charset="UTF-8" />
-    <title>Roman Ostash&#39;s personal blog: Posts Tagged &quot;Clojure&quot;</title>
+    <title>Roman Ostash&#39;s personal blog: Functional programming explained. Functional purity</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta
@@ -125,17 +125,45 @@
 
     <div id="right" class="clearfix">
       
-<div id="posts-by-tag">
-    <div id="page-header">
-        <h1>Posts Tagged &quot;Clojure&quot;</h1>
+<div id="post">
+    <div class="post-header">
+    <div id="post-meta" class="row">
+        <strong>May 11, 2020</strong>
+        
     </div>
-    <ul>
+    <h1>Functional programming explained. Functional purity</h1>
+</div>
+<div>
     
-        <li>
-            <a href="/posts-output/2020-05-04-first-post/">The beginning</a>
-        </li>
+    <blockquote><p>     Object oriented programming makes code understandable by encapsulating moving parts. Functional programming makes code understandable by minimizing moving parts. – Michael Feathers </p></blockquote><p><div style="text-align: justify"> What is a function? For the function to be a function it has to return something, otherwise is a procedure. <strong>Function</strong> is a semantic relationship between input and computed output.<br/> <strong>Pure function</strong> is a function that derives its output solely from inputs and causes no <strong>side effects</strong> in application or outside world. In a JavaScript we cannot completely sure if a function is pure unless we look on how the function was called.<br/> Every time we execute the pure function with same <strong>inputs</strong> we absolutely and positively know that it will always return the same <strong>output</strong>. We want our function calls to behave as pure: every time we give it a same input we expect to receive the same output. The function call needs to avoid using side effects.<br/> <strong>Impurity</strong> is about side effects. Minimize them. They impurify functional programming. Avoid them where possible or make them obvious in your code. How, you would ask? By taking away the impurity and writing a pure function that does computations and then a procedure to do the rest.<br/> The degree of <strong>functional purity</strong> in JavaScript shows in how confident a programmer is in function’s behavior. Higher degree of confidence relates to the higher level of purity in the function.<br/> Making pure functions might not always be possible or practical but we should strive to <strong>extract impurity</strong> (side effects) and leave functions as pure. It is possible that for whatever reason we cannot change or modify the impure function. Another option would be to <strong>contain the impurity</strong> so it doesn’t leek out to the rest of the scope.<br/> We can do that by <strong>wrapping</strong> an impure function inside a pure function. By doing that we reduce the surface area of that impurity and improve the overall program readability and maintainability. </div></p>
+</div>
+
+<div id="post-tags">
+    <br/> 
+    <b>Tags: </b>
     
-    </ul>
+    <a href="/tags-output/Pure functions/">Pure functions</a>
+    
+    <a href="/tags-output/JavaScript/">JavaScript</a>
+    
+    <a href="/tags-output/Functional programming/">Functional programming</a>
+    
+</div>
+
+<br/>
+
+    <div id="prev-next">
+        
+        <a class="button" href="/posts-output/2020-05-15-third-post/">&laquo; Functional programming explained. Arity</a>
+        
+        
+        <a class="right button" href="/posts-output/2020-05-04-first-post/">The beginning &raquo;</a>
+        
+    </div>
+
+    
+
+
 </div>
 
       <hr />
