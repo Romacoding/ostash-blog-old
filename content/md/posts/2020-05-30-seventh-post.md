@@ -1,6 +1,6 @@
 {:title "Functional programming explained. Immutability"
 :layout :post
-:tags ["Immutability", "Functional programming"]}
+:tags ["Immutability", "Mutability", "Functional programming"]}
 
 <div style="text-align: justify"> 
 **Mutable** data structure can be changed after creation **immutable** cannot.</br>  
