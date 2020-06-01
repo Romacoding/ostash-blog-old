@@ -2,6 +2,8 @@
 :layout :post
 :tags ["Immutability", "Mutability", "Functional programming"]}
 
+>     Why are we doing this? Because Clojure rocks, and JavaScript reaches. - Rich Hickey
+
 <div style="text-align: justify"> 
 **Mutable** data structure can be changed after creation **immutable** cannot.<br/>
 Paradoxically, when you need to mutate a data structure, is a time then you should use an immutable data structure because it allows a structured mutation. Immutable data structure creates a controlled mechanism for the mutation to occur. **Immutability** means, that you cannot change a data structure, you can only create a new data structure with changes applied to it.<br/>
