@@ -79,6 +79,12 @@
             <a href="/pages-output/about/">About me</a>
           </li>
           
+          <li
+            
+          >
+            <a href="/pages-output/resume/">Resume</a>
+          </li>
+          
           <li><a title="RSS" href="/feed.xml">RSS</a></li>
         </ul>
       </div>
@@ -128,21 +134,23 @@
 <div id="post">
     <div class="post-header">
     <div id="post-meta" class="row">
-        <strong>May 20, 2020</strong>
+        <strong>May 30, 2020</strong>
         
     </div>
-    <h1>Functional programming explained. Higher order functions</h1>
+    <h1>Functional programming explained. Immutability</h1>
 </div>
 <div>
     
-    <blockquote><p>     If debugging is the process of removing software bugs, then programming must be the process of putting them in. - Edsger Dijkstra </p></blockquote><p><div style="text-align: justify"> What is a <strong>higher order function(HOF)</strong>?  If a function receives as its input one or more functions or/and returns the function we can called it HOF. On the contrary, a single order function does not receive the function as an input. Functions that are passed as an argument to another function are what we refer to as <strong>callback functions.</strong> Functions in JavaScript are variadic, that means that you can pass more or less arguments then is specified to the function and it still will run.<br/>  You as a <strong>functional programmer</strong> should be comfortable making your own higher order functions. When you see two pieces that are not completely fit together you should be able to write an adapter/utility function to make them work jointly.<br/> We can take function that expects multiple parameters and reduce it shape to receive only one parameter, unary. Function that has one shape can be adapted to have another one. An example could be a "flip" HOF that receives another function, flips its parameters and returns it with parameters flipped. Another possible implementation would a "reverse" HOF that receives a function, reverse its parameters, and returns it with parameters reversed.<br/>  It is a good practice to get yourself familiar with existing functional programming libraries and tools and use patterns that are familiar to a larger community of programmers. That helps readability of your code. But when you can’t, make your own, document it well and make it available to others to use. </div></p>
+    <blockquote><p>     Why are we doing this? Because Clojure rocks, and JavaScript reaches. - Rich Hickey </p></blockquote><p><div style="text-align: justify">  <strong>Mutable</strong> data structure can be changed after creation <strong>immutable</strong> cannot.<br/> Paradoxically, when you need to mutate a data structure, is a time then you should use an immutable data structure because it allows a structured mutation. Immutable data structure creates a controlled mechanism for the mutation to occur. <strong>Immutability</strong> means, that you cannot change a data structure, you can only create a new data structure with changes applied to it.<br/> How that possibly be performant to create a whole new copy of the array or object every singe time we need to make changes? The immutable data structures are designed with the optimization in mind to mitigate that cost (a garbage collection and CPU load). When we use immutable data structures, the process of changing a property of the structure (mutation) is not to creature a whole new copy of that structure but to make a new structure with a new information in it and internally have a pointer to the previous one. It is similar to the git data structure: every time you commit something you just storing a difference compering to what it was before.<br/> We don’t have immutable data structures at the present time in JavaScript. There are library that provide us them like immutable.js.  </div></p>
 </div>
 
 <div id="post-tags">
     <br/> 
     <b>Tags: </b>
     
-    <a href="/tags-output/Higher order functions/">Higher order functions</a>
+    <a href="/tags-output/Mutability/">Mutability</a>
+    
+    <a href="/tags-output/Immutability/">Immutability</a>
     
     <a href="/tags-output/Functional programming/">Functional programming</a>
     
@@ -155,7 +163,7 @@
     <div id="prev-next">
         
         
-        <a class="button right" href="/posts-output/2020-05-17-forth-post/">Functional programming explained. Currying &raquo;</a>
+        <a class="button right" href="/posts-output/2020-05-25-sixth-post/">Functional programming explained. A value mutability &raquo;</a>
         
     </div>
 </div>
@@ -168,10 +176,10 @@
           <a title="Cryogen" href="http://cryogenweb.org">Cryogen</a> and
           <a title="Clojure" href="https://clojure.org/">Clojure</a> |
           <a
-            title="Designed with"
+            title="Design by"
             href="http://www.downloadwebsitetemplates.co.uk"
             rel="external"
-            >❤️</a
+            >💛</a
           >
         </p>
       </div>

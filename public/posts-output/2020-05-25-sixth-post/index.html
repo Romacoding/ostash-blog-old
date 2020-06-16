@@ -7,7 +7,7 @@
     <!-- Website Template designed by www.downloadwebsitetemplates.co.uk -->
     <!-- Modified to fit Cryogen.-->
     <meta charset="UTF-8" />
-    <title>Roman Ostash&#39;s personal blog: The beginning</title>
+    <title>Roman Ostash&#39;s personal blog: Functional programming explained. A value mutability</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta
@@ -134,14 +134,14 @@
 <div id="post">
     <div class="post-header">
     <div id="post-meta" class="row">
-        <strong>May 4, 2020</strong>
+        <strong>May 25, 2020</strong>
         
     </div>
-    <h1>The beginning</h1>
+    <h1>Functional programming explained. A value mutability</h1>
 </div>
 <div>
     
-    <h3 id="the&#95;jorney&#95;begins">The jorney begins</h3><blockquote><p> A journey of a thousand miles begins with a single step.  – Lao Tzu </p></blockquote><p><div style="text-align: justify"> Like many of developers that were coding for the last few years, I was following mostly object oriented programming paradigm. Let’s not go into details on its specific implementation (hopefully the reader is familiar with it. If not, there are plenty of resources online to read upon this topic).<br/> With years passed you grow, you change, so as your code. In order to satisfy the need of learning, you are starting to look into other concepts, other programming styles and ideas. This blog will follow my journey of diving into the deep ocean of the functional programming. </div></p>
+    <blockquote><p>     Programming is like sex. One mistake and you have to support it for the rest of your life. - Michael Sinz </p></blockquote><p><div style="text-align: justify">  <strong>Mutating a value</strong>. When you receive a data structure that is in its identity <strong>mutable</strong>, like an array or object, the best thing to do is to always assume that it is a read-only data structure and that you are not allowed to mutate it. Make a copy of the object/array (ex. spread operator) and then mutate it locally, so you don’t create a <strong>side effect</strong> on the outside program.<br/> <strong>Preventing a value mutation</strong>. If you are calling a function and you are going to pass to it a data structure like an array or object, make it clear to the reader that you don’t want it to be changed. Use something like Object.freeze method in JavaScript. Create a helper function that you can use to <strong>“freeze”</strong> an object so no new properties can be added, changed or removed. </div></p>
 </div>
 
 <div id="post-tags">
@@ -150,14 +150,18 @@
     
     <a href="/tags-output/Functional programming/">Functional programming</a>
     
+    <a href="/tags-output/Value mutability/">Value mutability</a>
+    
 </div>
 
 <br/>
 
     <div id="prev-next">
         
-        <a class="button" href="/posts-output/2020-05-11-second-post/">&laquo; Functional programming explained. Functional purity</a>
+        <a class="button" href="/posts-output/2020-05-30-seventh-post/">&laquo; Functional programming explained. Immutability</a>
         
+        
+        <a class="right button" href="/posts-output/2020-05-20-fifth-post/">Functional programming explained. Higher order functions &raquo;</a>
         
     </div>
 

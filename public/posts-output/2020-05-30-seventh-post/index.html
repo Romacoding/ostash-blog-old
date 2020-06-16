@@ -7,7 +7,7 @@
     <!-- Website Template designed by www.downloadwebsitetemplates.co.uk -->
     <!-- Modified to fit Cryogen.-->
     <meta charset="UTF-8" />
-    <title>Roman Ostash&#39;s personal blog: The beginning</title>
+    <title>Roman Ostash&#39;s personal blog: Functional programming explained. Immutability</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta
@@ -134,19 +134,23 @@
 <div id="post">
     <div class="post-header">
     <div id="post-meta" class="row">
-        <strong>May 4, 2020</strong>
+        <strong>May 30, 2020</strong>
         
     </div>
-    <h1>The beginning</h1>
+    <h1>Functional programming explained. Immutability</h1>
 </div>
 <div>
     
-    <h3 id="the&#95;jorney&#95;begins">The jorney begins</h3><blockquote><p> A journey of a thousand miles begins with a single step.  – Lao Tzu </p></blockquote><p><div style="text-align: justify"> Like many of developers that were coding for the last few years, I was following mostly object oriented programming paradigm. Let’s not go into details on its specific implementation (hopefully the reader is familiar with it. If not, there are plenty of resources online to read upon this topic).<br/> With years passed you grow, you change, so as your code. In order to satisfy the need of learning, you are starting to look into other concepts, other programming styles and ideas. This blog will follow my journey of diving into the deep ocean of the functional programming. </div></p>
+    <blockquote><p>     Why are we doing this? Because Clojure rocks, and JavaScript reaches. - Rich Hickey </p></blockquote><p><div style="text-align: justify">  <strong>Mutable</strong> data structure can be changed after creation <strong>immutable</strong> cannot.<br/> Paradoxically, when you need to mutate a data structure, is a time then you should use an immutable data structure because it allows a structured mutation. Immutable data structure creates a controlled mechanism for the mutation to occur. <strong>Immutability</strong> means, that you cannot change a data structure, you can only create a new data structure with changes applied to it.<br/> How that possibly be performant to create a whole new copy of the array or object every singe time we need to make changes? The immutable data structures are designed with the optimization in mind to mitigate that cost (a garbage collection and CPU load). When we use immutable data structures, the process of changing a property of the structure (mutation) is not to creature a whole new copy of that structure but to make a new structure with a new information in it and internally have a pointer to the previous one. It is similar to the git data structure: every time you commit something you just storing a difference compering to what it was before.<br/> We don’t have immutable data structures at the present time in JavaScript. There are library that provide us them like immutable.js.  </div></p>
 </div>
 
 <div id="post-tags">
     <br/> 
     <b>Tags: </b>
+    
+    <a href="/tags-output/Mutability/">Mutability</a>
+    
+    <a href="/tags-output/Immutability/">Immutability</a>
     
     <a href="/tags-output/Functional programming/">Functional programming</a>
     
@@ -156,8 +160,8 @@
 
     <div id="prev-next">
         
-        <a class="button" href="/posts-output/2020-05-11-second-post/">&laquo; Functional programming explained. Functional purity</a>
         
+        <a class="right button" href="/posts-output/2020-05-25-sixth-post/">Functional programming explained. A value mutability &raquo;</a>
         
     </div>
 
