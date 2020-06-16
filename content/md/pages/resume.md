@@ -11,24 +11,19 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1, shrink-to-fit=no"
 		/>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
 		<div class="sidebar">
 			<header class="header">
 				<h1>Roman Ostash</h1>
-				<p class="subtitle">Software Developer</p>
-				<p class="location">
-					New York, USA
-				</p>
-				<section class="buttons">
+				<p></p>
+				<section>
+				<button class="buttons" style="font-size: 16px; padding: 10px 24px;">
 					<a href="../../img/roman-ostash.pdf">Download my resume in PDF</a>
+				</button>
 				</section>
 			</header>
+			<p></p>
 			<aside class="aside">
 				<section>
 					<p>
