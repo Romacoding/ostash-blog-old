@@ -245,8 +245,7 @@
 							target="_blank"
 							rel="noopener noreferrer"
 							>GopShop</a
-						>)<br />Next.js React e-commerce project for a chain of supermarkets
-						in Ukraine.
+						>)<br />Next.js React e-commerce project.
 					</li>
 					<li>
 						<b>AllerGenie</b> (<a
