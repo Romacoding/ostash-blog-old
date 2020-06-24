@@ -19,7 +19,7 @@
 				<p></p>
 				<section>
 				<button class="button">
-					<a href="../../img/roman-ostash.pdf">Download my resume in PDF</a>
+					<a target="_blank" href="../../img/roman-ostash.pdf">Download my resume in PDF</a>
 				</button>
 				</section>
 			</header>
