@@ -51,22 +51,22 @@ body {
 }
 
 ::selection {
-  background: #33cccc;
+  background: #ffe02e;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #33cccc;
+  background: #ffe02e;
   color: #fff;
 }
 
 a {
-  color: #33cccc;
+  color: #222;
   text-decoration: none;
 }
 
 a:hover {
-  color: #222;
+  color: #111;
 }
 
 /* ==================================================
@@ -84,7 +84,7 @@ img.imgfull {
   width: 100%;
   max-width: 1000px;
   margin: 0 0 20px 0;
-  border-top: 5px solid #33cccc;
+  border-top: 5px solid #ffe02e;
 }
 
 /* ==================================================
@@ -117,8 +117,8 @@ img.imgfull {
   bottom: 0;
   width: 100%;
   max-width: 280px;
-  background: #33cccc;
-  color: #fff;
+  background: #ffe02e;
+  color: #111;
   z-index: 3;
   overflow-y: auto;
 
@@ -134,7 +134,7 @@ img.imgfull {
   display: block;
   padding: 30px 20px;
   width: 100%;
-  color: #fff;
+  color: #2d2d2d;
   margin: 0 0 20px 0;
 }
 
@@ -177,7 +177,7 @@ img.imgfull {
 
 #left #socialmedia ul li a {
   font-size: 23px;
-  color: #fff;
+  color: #2d2d2d;
   opacity: 0.4;
 }
 

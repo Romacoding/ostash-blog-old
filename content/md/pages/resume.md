@@ -18,7 +18,7 @@
 				<h1>Roman Ostash</h1>
 				<p></p>
 				<section>
-				<button class="buttons" style="font-size: 16px; padding: 10px 24px;">
+				<button class="button">
 					<a href="../../img/roman-ostash.pdf">Download my resume in PDF</a>
 				</button>
 				</section>
